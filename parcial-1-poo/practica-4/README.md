@@ -6,13 +6,6 @@ Construir un mini-sistema POO en PHP que integra encapsulamiento, herencia, poli
 
 ---
 
-## Requisitos
-
-- PHP 8.0 o superior
-- XAMPP (Apache) o servidor integrado de PHP
-- Navegador web
-
----
 
 ## Estructura del proyecto
 
@@ -64,45 +57,3 @@ try {
 ```
 
 El objeto inválido nunca se agrega al arreglo; los tres válidos ya están guardados antes de que ocurra el error.
-
----
-
-## Instrucciones de ejecución
-
-### Opción A – Servidor integrado de PHP
-```bash
-cd practica-4
-php -S localhost:8000
-```
-Abrir: [http://localhost:8000](http://localhost:8000)
-
-### Opción B – XAMPP
-1. Copiar `practica-4/` en `C:\xampp\htdocs\practica-4\`
-2. Iniciar Apache desde el panel de XAMPP
-3. Abrir: `http://localhost/practica-4/`
-
----
-
-## Evidencia esperada
-
-| Sección | Descripción |
-|---|---|
-| Tabla HTML | 3 filas con Admin, Alumno e Invitado. Columnas sin dato muestran "—". |
-| Error controlado | Mensaje de excepción capturado bajo la tabla, sin error fatal. |
-
----
-
-## Commits sugeridos (Git)
-
-```bash
-git add practica-4/
-git commit -m "Crea estructura base de practica-4"
-
-# después de terminar las clases:
-git commit -m "Implementa clases Usuario/Admin/Alumno/Invitado"
-
-# al finalizar:
-git commit -m "Agrega index con tabla y manejo de excepciones"
-
-git push
-```
