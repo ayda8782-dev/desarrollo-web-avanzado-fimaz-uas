@@ -47,13 +47,11 @@ Las tres clases hijas implementan `getRol()` con distintos valores. El `index.ph
 
 ```php
 try {
-    $usuarios[] = new Admin('Laura', 'laura@uas.edu.mx');       // válido
-    $usuarios[] = new Alumno('Pedro', 'pedro@uas.edu.mx', 'X'); // válido
-    $usuarios[] = new Invitado('Sofía', 'sofia@emp.com', 'TechCorp'); // válido
-    $usuarios[] = new Admin('Carlos', 'carlos@@correo');         // ← lanza Exception
+    $usuarios[] = new Admin('Aydali Nevarez', 'ayda8782@gmail.com');       // válido
+    $usuarios[] = new Alumno('Aydali Berenis', 'AydaliN@gmail.com', '87905645'); // válido
+    $usuarios[] = new Invitado('Aydali Berenis', 'dali123@gmail.com', 'TechCorp'); // válido
+    $usuarios[] = new Admin('Aydali', 'aydli@@gmail.com');         // ← lanza Exception
 } catch (Exception $e) {
     echo 'Error controlado: ' . $e->getMessage();
 }
 ```
-
-El objeto inválido nunca se agrega al arreglo; los tres válidos ya están guardados antes de que ocurra el error.
