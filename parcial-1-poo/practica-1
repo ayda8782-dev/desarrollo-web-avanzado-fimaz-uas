@@ -64,5 +64,6 @@ Luego abrir en el navegador: [http://localhost:8000](http://localhost:8000)
 
 El navegador mostrará dos tarjetas:
 
-1. **Instancia inicial** – valores asignados en el constructor (`Ana García`, `ana.garcia@ejemplo.com`).
-2. **Después de usar setters** – valores actualizados con `setNombre()` y `setCorreo()` (`Carlos López`, `carlos.lopez@ejemplo.com`).
+1. **Instancia inicial** – valores asignados en el constructor (`Aydali Berenis`, `Ayda8782@gmail.com`).
+2. **Después de usar setters** – valores actualizados con `setNombre()` y `setCorreo()` (`Aydali Nevarez`, `
+ayda8782@gmail.com`).
