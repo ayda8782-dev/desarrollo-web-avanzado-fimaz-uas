@@ -46,7 +46,7 @@ Cada instanciación se envuelve en `try/catch`:
 
 ```php
 try {
-    $admin = new Admin('Laura Martínez', 'laura@uas.edu.mx');
+    $admin = new Admin('Aydali Nevarez', 'ayda8782@gnail.com');
     echo $admin->getRol(); // "Administrador"
 } catch (InvalidArgumentException $e) {
     echo 'Error: ' . $e->getMessage();
@@ -74,25 +74,3 @@ practica-3/
 └── README.md         ← Esta documentación
 ```
 
----
-
-## Instrucciones de ejecución
-
-### Opción A – Servidor integrado de PHP
-```bash
-cd practica-3
-php -S localhost:8000
-```
-Abrir: [http://localhost:8000](http://localhost:8000)
-
-### Opción B – XAMPP
-1. Copiar `practica-3/` en `C:\xampp\htdocs\practica-3\`
-2. Iniciar Apache desde el panel de XAMPP
-3. Abrir: `http://localhost/practica-3/`
-
----
-
-## Salida esperada
-
-**Objetos válidos:** se muestran tarjetas con nombre, correo, rol y matrícula (Alumno).  
-**Excepciones:** se muestran tarjetas de error con el mensaje controlado de `InvalidArgumentException`.
