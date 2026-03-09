@@ -49,31 +49,3 @@ practica-2/
 ├── index.php     ← Prueba de herencia en el navegador
 └── README.md     ← Esta documentación
 ```
-
----
-
-## Instrucciones de ejecución
-
-### Opción A – Servidor integrado de PHP
-
-```bash
-# Dentro de la carpeta practica-2
-php -S localhost:8000
-```
-
-Abrir en el navegador: [http://localhost:8000](http://localhost:8000)
-
-### Opción B – XAMPP
-
-1. Copiar `practica-2/` en `C:\xampp\htdocs\practica-2\`
-2. Iniciar Apache desde el panel de XAMPP
-3. Abrir: `http://localhost/practica-2/`
-
----
-
-## Salida esperada
-
-El navegador muestra dos tarjetas:
-
-1. **Usuario (clase base):** nombre y correo del objeto Admin, accedidos mediante los métodos heredados.
-2. **Admin (clase hija):** nombre, correo y rol `Administrador`, demostrando la reutilización de código y el método propio.
